@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#routeForm {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#routeForm label {
+    margin-top: 10px;
+}
+
+#routeForm input {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#routeForm button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#routeForm button:hover {
+    background-color: #45a049;
+}
+
+#results {
+    margin-top: 20px;
+}
